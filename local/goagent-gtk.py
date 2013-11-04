@@ -171,6 +171,7 @@ class GoAgentGTK:
 
         if should_visible():
             self.window.show_all()
+            self.window.show_all()
 
         logo_filename = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'goagent-logo.png')
         if not os.path.isfile(logo_filename):
